@@ -1,8 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-<nav>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+		<meta charset="UTF-8">
+		<title>Ja'Layja Davis</title>
+		<style>
+			img {
+				float: right;
+			}
+	</style>
+	</head>
+	<body bgcolor="#FFB6C1" >
+		
+		<h1>ABOUT ME</h1>
+		
+		<img src="JD.PNG" alt="Ja'Layja's Business Picture" width="300">
+		<h2>NICE TO MEET YOU, 
+		I'M JA'LAYJA DAVIS</h2>
+		
+		<nav>
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="Resume.html">Resume</a></li>
@@ -12,159 +28,49 @@
 				<li><a href="CardGame.js">Card Game</a></li>
 				</ul>
 			</nav>
-<style>
-   #rcorners1 {
-   border-radius: 25px;
-   background: purple;
-   padding: 8px;
-   width: 200px;
-   height: 140px;   
-   }
-   #rcorners2 {
-   border-radius: 25px;
-   background: green;
-   padding: 8px;
-   width: 200px;
-   height: 140px;   
-   }
-   #rcorners3{
-   border-radius: 25px;
-   background: blue;
-   padding: 8px;
-   width: 200px;
-   height: 140px;   
-   }
-   #rcorners4{
-   border-radius: 25px;
-   background: magenta;
-   padding: 8px;
-   width: 200px;
-   height: 140px;   
-   }
-   #rcorners5{
-   border-radius: 25px;
-   background: red;
-   padding: 8px;
-   width: 200px;
-   height: 140px;   
-   }
-   #rcorners6{
-   border-radius: 25px;
-   background: orange;
-   padding: 8px;
-   width: 200px;
-   height: 140px;   
-   }
-</style>
-<script>
-   //define the function
-   function check()
-   {
-       //declare the sum value to 0
-       var sum=0;
-       //get the items from the checkbox
-       var items=document.getElementsByName('color');
-       //selected items as string
-       var selectedItems="";
-       //use for-loop to iterate the items
-       for(var i=0; i<items.length; i++)
-       {
-           //if the item type is checkbox
-           if(items[i].type=='checkbox' && items[i].checked==true)
-           {
-               //compute the sum of the corner value
-               //of the box
-               sum+=parseInt(items[i].value);
-               //set the value
-               selectedItems+=items[i].value+"\n";  
-           }
-       }
-       //write the answer in the html
-       document.getElementById("ans").innerHTML = "Your number is "+sum;
-   }
-</script>
-</head>
+		<p
+<p>
+    I was born and raised in Natchitoches, Louisiana. I earned my Bachelor of Science
+    in Computer Information Systems with a concentration in Information Systems
+    Management from Northwestern State University of Louisiana (NSULA). I am
+    currently pursuing a Master of Science in Informatics with a Data Science
+    concentration at the University of Louisiana at Lafayette.
+</p>
 
-<body>
-   <font color="white">
-   <table style="width:50%" border="0" align="left" color="white">
-   <tr>
-       <td>
-       <p id="rcorners1" >
-       &nbsp 1 &nbsp&nbsp 3 &nbsp&nbsp 5 &nbsp&nbsp 7 &nbsp&nbsp 9 &nbsp&nbsp
-   11&nbsp 13&nbsp 15<br><br>
-       &nbsp17&nbsp 19&nbsp 21&nbsp 23&nbsp 25&nbsp 27&nbsp 29&nbsp 31<br><br>
-       &nbsp33&nbsp 35&nbsp 37&nbsp 39&nbsp 41&nbsp 43&nbsp 45&nbsp 47<br><br>
-       &nbsp49&nbsp 51&nbsp 53&nbsp 55&nbsp 57&nbsp 59&nbsp 61&nbsp 63<br><br>
-       </p>               
-       </td>
+<p>
+    My career goal is to work as a data analyst, where I can use data to support
+    business decisions and solve real-world problems. After securing a full-time
+    role, I plan to relocate to Atlanta, Georgia and work for a large
+    technology-driven company such as Microsoft.
+</p>
 
-       <td>
-       <p id="rcorners2">
-       &nbsp 2 &nbsp&nbsp 3 &nbsp&nbsp 6 &nbsp&nbsp 7 &nbsp 10 &nbsp&nbsp11&nbsp
-       14&nbsp 15<br><br>
-       &nbsp18&nbsp 19&nbsp 22&nbsp 23&nbsp 26&nbsp 27&nbsp 30&nbsp 31<br><br>
-       &nbsp34&nbsp 35&nbsp 38&nbsp 39&nbsp 42&nbsp 43&nbsp 46&nbsp 47<br><br>
-       &nbsp50&nbsp 51&nbsp 54&nbsp 55&nbsp 58&nbsp 59&nbsp 62&nbsp 63<br><br>
-       </p>
-       </td>
+<p>
+    I have professional experience in customer service, technical support, and
+    production environments. I have worked at Walmart as a sales associate, at
+    Insight Global supporting FEMA operations, and in production roles at Alliance
+    Compressors and Boise Cascade. These experiences have strengthened my
+    communication, analytical thinking, and problem-solving skills.
+</p>
 
-       <td>
-       <p id="rcorners3">
-       &nbsp 4 &nbsp&nbsp 5 &nbsp&nbsp 6 &nbsp&nbsp 7 &nbsp 12&nbsp&nbsp 13&nbsp
-       14&nbsp 15<br><br>
-       &nbsp20&nbsp 21&nbsp 22&nbsp 23&nbsp 28&nbsp 29&nbsp 30&nbsp 31<br><br>
-       &nbsp36&nbsp 37&nbsp 38&nbsp 39&nbsp 44&nbsp 45&nbsp 46&nbsp 47<br><br>
-       &nbsp52&nbsp 53&nbsp 54&nbsp 55&nbsp 60&nbsp 61&nbsp 62&nbsp 63<br><br>
-       </p>
-       </td>
-   </tr>
-   <tr>
-       <td>
-       <p id="rcorners4">
-       &nbsp 8 &nbsp&nbsp 9 &nbsp 10 &nbsp 11&nbsp 12&nbsp 13&nbsp 14&nbsp 15<br><br>
-       &nbsp24&nbsp 25&nbsp 26&nbsp 27&nbsp 28&nbsp 29&nbsp 30&nbsp 31<br><br>
-       &nbsp40&nbsp 41&nbsp 42&nbsp 43&nbsp 44&nbsp 45&nbsp 46&nbsp 47<br><br>
-       &nbsp56&nbsp 57&nbsp 58&nbsp 59&nbsp 60&nbsp 61&nbsp 62&nbsp 63<br><br>
-       </p>
-       </td>
-
-       <td>
-       <p id="rcorners5">
-       &nbsp16&nbsp 17&nbsp 18&nbsp 19&nbsp 20&nbsp 21&nbsp 22&nbsp 23<br><br>
-       &nbsp24&nbsp 25&nbsp 26&nbsp 27&nbsp 28&nbsp 29&nbsp 30&nbsp 31<br><br>
-       &nbsp48&nbsp 49&nbsp 50&nbsp 51&nbsp 52&nbsp 53&nbsp 54&nbsp 55<br><br>
-       &nbsp56&nbsp 57&nbsp 58&nbsp 59&nbsp 60&nbsp 61&nbsp 62&nbsp 63<br><br>
-       </p>
-       </td>
-
-       <td>
-       <p id="rcorners6">
-       &nbsp32&nbsp 33&nbsp 34&nbsp 35&nbsp 36&nbsp 37&nbsp 38&nbsp 39<br><br>
-       &nbsp40&nbsp 41&nbsp 42&nbsp 43&nbsp 44&nbsp 45&nbsp 46&nbsp 47<br><br>
-       &nbsp48&nbsp 49&nbsp 50&nbsp 51&nbsp 52&nbsp 53&nbsp 54&nbsp 55<br><br>
-       &nbsp56&nbsp 57&nbsp 58&nbsp 59&nbsp 60&nbsp 61&nbsp 62&nbsp 63<br><br>
-       </p>
-       </td>
-   </tr>
-</table>
-  
-<p style="font-size:120%;font-family:courier; color:red;" align="left">
-Select one number from any card </p>
-</font>
-<p style="font-size:120%;font-family:courier; color:red;" align="left">
-Select the boxes if your number is existed?</p>
+<p>
+    I am a Microsoft Office Specialist certified in Excel and Word, and I am
+    continuing to build my technical skill set in SQL, Java, database management,
+    data visualization, and machine learning. I am committed to continuous learning
+    and professional growth. I have big goals, and I
+    <em><strong>WILL</strong></em> achieve them.
+</p>
 
 
-<form align= "left">
-   <input type="checkbox" name="color" value="1">Purple box<br>
-   <input type="checkbox" name="color" value="2">Green box<br>
-   <input type="checkbox" name= "color" value="4">Blue box<br>
-   <input type="checkbox" name= "color" value="8">Pink box<br>
-   <input type="checkbox" name= "color" value="16">Red box<br>
-   <input type="checkbox" name= "color" value="32">Orange box<br><br>
-   <input type="button" value="Check" id="btn" onclick="check()"/>
-</form>
-<p style="font-size:150%; font-family:courier; color:Magenta;" align="left" id="ans"> </p>
-</body>
+		<img src="https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fni3if8he2mi51.jpg&rdt=59076">
+		
+		<p> 
+			You can view my Linkedin Professional Profile by clicking the link below." 
+		</p>
+		<a href="https://www.linkedin.com/in/jdavis-profile321" target="_blank"> 
+			<strong>Click Here</strong>
+		
+		</a>
+		
+		</body>
 </html>
+		
